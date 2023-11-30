@@ -1,0 +1,18 @@
+body {
+    border-color: rgb(238, 166, 166);
+    background-color:violet;
+    font-family: Arial, sans-serif;
+    text-align: left;
+}
+
+textarea {
+    width: 20%;
+    height: 50px;
+    margin-bottom: 10px;
+
+}
+
+.redactr{
+    color: rgb(231, 223, 223);
+    background-color: aqua;
+}

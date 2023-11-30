@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redaction App</title>
+    <script src="../Redart/redactTR.css"></script>
+    <script src="../Redart/redactTR.js" defer></script>
+
+
+</head>
+<body>
+    <h1>Redaction App</h1>
+    <form id="redactionForm">
+        <label for="content">Enter Your Content:</label><br>
+        <textarea id="content" placeholder="Type or paste your content here..."></textarea><br>
+
+        <label for="redactWords">Words to Redact (separated by space):</label><br>
+        <input type="text" id="redactWords" placeholder="Enter words to redact"><br>
+
+        <button type="button" onclick="redactContent()">Redact Now</button>
+    </form>
+
+    <h2>Redacted Content:</h2>
+    <div id="redactedOutput"></div>
+</body>
+</html>
